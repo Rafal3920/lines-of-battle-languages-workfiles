@@ -15,7 +15,6 @@
   "credits": "Autorzy",
 
   "settings": "Ustawienia",
-  "eloScore": "Twoje Elo to {{elo}}",
   "eloDescription": "Elo to system oceny używany do obliczenia względnego poziomu umiejętności graczy. Im wyższe jest twoje Elo, tym lepszy jesteś w porównaniu do innych. Wygrywanie zwiększa twoje Elo, a przegrywanie je zmniejsza.",
   "welcomeName": "Witaj {{name}}!",
   "myGames": "Moje partie",
@@ -53,7 +52,6 @@
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
     "continueMatchmaking": "Nawet jeśli wyjdziesz z tej strony, proces szukania partii nadal będzie trwał i otrzymasz powiadomienie, gdy partia zostanie znaleziona.",
-    "nextQueueCheck": "Następne sprawdzenie kolejki za {{countdown}} sekund.",
     "onlyClanMembers": "Graj tylko z członkami koalicji"
   },
 
@@ -87,9 +85,6 @@
   "customDescription": "Tryb Niestandardowa Partia pozwala stworzyć partię ze specyficznymi ustawieniami i zaprosić znajomych do gry.",
   "createCustomGame": "Stwórz Niestandardową Partię.",
   "maxTurn": "Maksymalna ilość tur",
-
-  "copied": "Skopiowano!",
-  "copyLink": "Skopiuj link",
 
   "player": "Gracz",
   "units": "Jednostki",
@@ -162,7 +157,8 @@
     "3": "Artyleria",
     "4": "Lekka Piechota",
     "5": "Lekka Kawaleria",
-    "6": "Ciężka Kawaleria"
+    "6": "Ciężka Kawaleria",
+    "7": "Milicja"
   },
 
   "category": "Kategoria",
@@ -313,7 +309,7 @@
   "armyInvalid": "Ta armia jest niewłaściwa, proszę ją zmodyfikować.",
 
   "landing": {
-    "title": "Witaj w Lines of Battle",
+    "title": "Witaj w <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b>, to wieloosobowa, gra strategiczna z równoczesnymi turami osadzona w czasach Wojen Napoleońskich. Doświadcz głębi taktycznej i historycznej immersji, tocz epickie bitwy przeciwko innym graczom, użyj zdolności i strategii, aby przechytrzyć i pokonać wroga!",
     "privacy": "Zaczynając, zgadzasz się z naszą <0>Polityką Prywatności</0>."
   },
@@ -353,7 +349,9 @@
     "tip17": "Aby przejąć punkt przeciwnika, umieść na nim 1 batalion piechoty na 8 tur, 8 batalionów na 1 turę, itd.",
     "tip18": "Kliknij przycisk rozkazów, by uzyskać dostęp do komend, takich jak: odwrót, ostrzał, natarcie.",
     "tip19": "Gwardia i Kirasjerzy mają duży wpływ na organizacje innych jednostek, po prostu będac blisko nich. Ten efekt się nakłada, więc kilka elitarnych jednostek może zmienić przebieg bitwy.",
-    "tip20": "Daj artylerii czystą linię strzału. Nie manewruj przed nią piechotą."
+    "tip20": "Daj artylerii czystą linię strzału. Nie manewruj przed nią piechotą.",
+    "tip21": "\"To kawaleria ma kontynuować [walkę] po zwycięstwie i zapobiegać ponownemu przegrupowaniu się pokonanego wroga.\" - Napoleon Bonaparte",
+    "tip22": "\"Planowanie zachowania kawalerii na koniec bitwy oznacza brak pojęcia o sile połączonych szarż piechoty i kawalerii, zarówno w ataku, jak i w obronie.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Pozyskiwanie akcji bitwy...",
@@ -430,6 +428,8 @@
   "signUp": "Zarejestruj się",
   "forgotPassword": "Nie pamiętasz hasła?",
   "username": "Nazwa użytkownika",
+  "changeUsername": "Zmień nazwę użytkownika",
+  "changeEmail": "Zmień email",
   "password": "Hasło",
   "email": "Email",
   "usernameOrEmail": "Nazwa Użytkownika lub Email",
@@ -534,5 +534,6 @@
 
   "formation": "Formacja",
   "findGame": "Znajdź grę",
-  "gameIdOrLink": "ID gry lub link"
+  "gameIdOrLink": "ID gry lub link",
+  "playFree": "Grać za Darmo"
 }

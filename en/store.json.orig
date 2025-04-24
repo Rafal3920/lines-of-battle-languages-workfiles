@@ -15,6 +15,10 @@
     "nextGoal": "Następny cel: {{goal}} <currency/> "
   },
 
+<<<<<<< HEAD
   "purchaseConfirmation": "Na pewno chcesz kupić {{item}}?"
-  "showPurchased": "Pokaż zakupione"
+=======
+  "purchaseConfirmation": "Are you sure you want to purchase {{item}}?",
+  "showPurchased": "Show purchased"
+>>>>>>> upstream/main
 }
